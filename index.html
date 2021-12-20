@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h2 class="text">2 Player Tic-Tac-Toe</h2>
+    </section>
+    <main class="board">
+      <div class="tile" id="0"></div>
+      <div class="tile" id="1"></div>
+      <div class="tile" id="2"></div>
+      <div class="tile" id="3"></div>
+      <div class="tile" id="4"></div>
+      <div class="tile" id="5"></div>
+      <div class="tile" id="6"></div>
+      <div class="tile" id="7"></div>
+      <div class="tile" id="8"></div>
+    </main>
+    <section class="inputs">
+      <div class="b1">
+        <input type="text" id="tt" placeholder="Player 1 " />
+        <button onclick="nameOne()" id="submit">Submit</button>
+      </div>
+      <div class="b2">
+        <input type="text" id="tt2" placeholder="Player 2 " />
+        <button onclick="nameTwoStart()" id="submit2">Submit and Start</button>
+      </div>
+    </section>
+    <button onclick="reset()" id="reset">reset game</button>
+    <section class="message">
+      <h2 class="gamestatus">Enter Names</h2>
+    </section>
+  </body>
+  <script src="app2.js"></script>
+</html>
